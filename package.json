@@ -1,0 +1,70 @@
+{
+  "name": "assets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+{
+  "name": "wz-assets",
+  "version": "1.0.0",
+  "description": "基础管理",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open --config webpack.dev.js",
+    "lib": "webpack --config webpack.component.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://119.145.28.245:8443/webuild/shenzhen/development-center/front/wz-assets"
+  },
+  "keywords": [],
+  "author": "yun.zhou@webuilding.com",
+  "private": true,
+  "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.4",
+    "node-sass": "^6.0.1",
+    "postcss-loader": "^6.2.0",
+    "sass-loader": "^12.3.0",
+    "terser-webpack-plugin": "^5.2.4",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.8",
+    "vue-style-loader": "^4.1.3",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.62.1",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0",
+    "webpack-merge": "^5.8.0",
+    "print-js": "^1.5.0",
+    "qrcode": "^1.4.4"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/runtime": "^7.16.3",
+    "axios": "^0.24.0",
+    "css-loader": "^6.7.1",
+    "dayjs": "^1.10.7",
+    "echarts": "^5.1.1",
+    "echarts-liquidfill": "^3.1.0",
+    "element-ui": "^2.15.6",
+    "jsencrypt": "3.0.0-rc.1",
+    "qs": "^6.10.1",
+    "sortablejs": "^1.15.0",
+    "vue": "^2.6.14",
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^4.1.0"
+  }
+}
